@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - Barbería Alura</title>
+    <!--Para que nuestro estilo creado no sea influenciado 
+        por el estilo que el navegador agrega por defecto se usa el rest.css.-->
+    <link rel="stylesheet" href=".//reset.css">
+    <link rel="stylesheet" href=".//style.css">
+</head>
+<body>
+    <header>
+        <!-- <div> Sirve para crear secciones o agrupar contenidos en bloque. -->
+        <div class="caja"> 
+            <h1><img src=".//imagenes/logo.png" alt="Logo de la barbería Alura"></h1>
+            <!-- <nav> Representa una sección de una página cuyo propósito es 
+                proporcionar enlaces de navegación, ya sea dentro del documento 
+                actual o a otros documentos.-->
+            <nav>
+                <ul class="menu">
+                    <li><a href=".//index.html">Home</a></li>
+                    <li><a href=".//productos.html">Productos</a></li>
+                    <li><a href=".//contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--El elemento HTML <main> representa el contenido principal de un documento o 
+        aplicación, relacionado con el tema central o la funcionalidad central. 
+        Este contenido debe ser único y excluir cualquier contenido que se repita en 
+        varios documentos, como barras laterales, enlaces de navegación, etc.-->
+    <main>
+        <ul class="productos">
+            <li>
+                <h2>Cabello</h2>
+                <img src=".//imagenes/cabello.jpg" alt="Logo del cabello">
+                <p class="producto-descripcion">Con tijera o maquina, a gusto del cliente</p>
+                <p class="producto-precio">$ 10.00 USD</p>                
+            </li>
+            <li>
+                <h2>Barba</h2>
+                <img src=".//imagenes/barba.jpg" alt="Logo de la barba">
+                <p class="producto-descripcion">Corte y diseño profesional de barba</p>
+                <p class="producto-precio">$ 8.00 USD</p>                
+            </li>
+            <li>
+                <h2>Cabello + Barba</h2>
+                <img src=".//imagenes/cabello+barba.jpg" alt="Logo del cabello mas barba">
+                <p class="producto-descripcion">Paquete completo de cabello y barba</p>
+                <p class="producto-precio">$ 15.00 USD</p>                
+            </li>
+        </ul>
+    </main>
+
+    <!--representa un pie de página para el contenido de sección más cercano-->
+    <footer>
+        <img src=".//imagenes/logo-blanco.png" alt="Logo en Blanco">
+        <p class="copyright"> &copy Copyright Barbería Alura - 2023</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Barbería Alura</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!-- <div> Sirve para crear secciones o agrupar contenidos en bloque. -->
+        <div class="caja"> 
+            <h1><img src=".//imagenes/logo.png" alt="Logo de la barbería Alura"></h1>
+            <!-- <nav> Representa una sección de una página cuyo propósito es 
+                proporcionar enlaces de navegación, ya sea dentro del documento 
+                actual o a otros documentos.-->
+            <nav>
+                <ul class="menu">
+                    <li><a href=".//index.html">Home</a></li>
+                    <li><a href=".//productos.html">Productos</a></li>
+                    <li><a href=".//contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <img class="banner" src=".//imagenes/banner.jpg" alt="Banner">
+
+    <main>
+
+        <!--Su funcionalidad principal es estructurar semánticamente un documento a la hora de ser representado por parte de un agente usuario-->
+        <section class="presentación">
+            <h2 class="titulo">Sobre la Barbería Alura</h2>
+
+            <img class="utensilios" src=".//imagenes/utensilios.jpg" alt="Utensilios de barbero">
+        
+            <p>Ubicada en el corazón de la ciudad, la <strong>Barbería Alura</strong> trae para el mercado lo que hay de mejor para su cabello y barba. Fundada en 2020, la Barbería Alura ya es destaque en la ciudad y conquista nuevos clientes diariamente. </p>
+        
+            <p class="mission">Nuestra misión es: <strong id="mission1">"Proporcionar autoestima y calidad de vida a nuestros clientes".</strong></p>
+        
+            <p>Ofrecemos profesionales experimentados que están constantemente observando los cambios y movimiento en el mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias. El atendimiento posee un padrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes. </p>
+        </section>
+
+        <section class="mapa">
+            <h3 class="titulo"> Nuestra Ubicación</h3>
+            <p>Nuestro establecimiento esta ubicado en el corazón de la ciudad</p>
+            
+            <div class="mapa-contenido">
+
+                <!--representa un contexto de navegación anidado, el cual permite incrustrar otra página HTML en la página actual.-->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.4499774687993!2d-46.634525952489696!3d-23.58818986838658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum%20-%20Education%20and%20Innovation!5e0!3m2!1ses-419!2smx!4v1674484999710!5m2!1ses-419!2smx" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </section>
+    
+        <section class="diferenciales">
+            <h3 class="titulo">Diferenciales</h3>
+
+            <div class="contenido-diferenciales">
+                <ul class="lista-diferenciales">
+                    <li class="items">Atención personalizada a los clientes</li>
+                    <li class="items">Espacio diferenciado</li>
+                    <li class="items">Localización</li>
+                    <li class="items">Profesionales calificados</li>
+                    <li class="items">Puntualidad</li>
+                    <li class="items">Limpieza</li>
+                </ul><img src="./imagenes/diferenciales.jpg" class="imagen-diferenciales" alt="Diferenciales xd">
+            </div>
+            <div class="video">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src=".//imagenes/logo-blanco.png" alt="Logo en Blanco">
+        <p class="copyright"> &copy Copyright Barbería Alura - 2023</p>
+    </footer>
+
+</body>
+</html>
