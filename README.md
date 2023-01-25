@@ -51,3 +51,5 @@ Es importante prepararse para trabajar en equipo en el desarrollo de software y 
 ## Autor
 
 - <img src="https://avatars.githubusercontent.com/u/71155547?v=4" width="16" height="16"/> Adrian Fernadnez ([@Zedreef](https://github.com/Zedreef))
+
+lolxd
